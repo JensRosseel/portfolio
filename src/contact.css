@@ -1,3 +1,11 @@
 .contact p{
     font-size: 25px;
 }
+
+.contact p a{
+    color: white;
+}
+
+.contact p a:hover{
+    color: #35f4a6;
+}
