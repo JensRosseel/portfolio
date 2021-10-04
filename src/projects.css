@@ -1,21 +1,58 @@
+.cards{
+    margin-top: 5%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "a b"
+    "c c";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+}
+
+.interested{
+    grid-area: c;
+    text-align: center;
+}
+
 .card{
-    height: 350px;
-    width: 250px;
+    height: 100%;
+    width: 80%;
     border: 2px solid white;
     margin-left: 25px;
     margin-right: 25px;
     background-color: #1c1c1c;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-areas: 
+    "a a b"
+    "a a c";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 30% 30% 30%;
 }
 
-.card img{
-    width: 225px;
-    height: 200px;
-    margin-top: 12.5px;
-    margin-left: 12.5px;
+.description{
+    grid-area: b;
+    padding: 10px;
 }
 
 .title{
     font-size: 20px;
+}
+
+.description p{
+    font-size: 14px;
+}
+
+.card img{
+    grid-area: a;
+    height: 100%;
+    width: 100%;
+}
+
+.card .buttons{
+    grid-area: c;
+}
+
+.card .button{
+    padding: 10px;
 }
