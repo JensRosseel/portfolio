@@ -16,7 +16,7 @@ export default function Contact() {
                 </div>
                 <div className="mediaButtons">
                     <a href="mailto:jensrosseel.business@gmail.com"><img src={mail} alt="mail button"></img></a>
-                    <a href="https://github.com/JensRosseel"><img src={github} alt="github button"></img></a>
+                    <a href="https://github.com/JensRosseel" target="_blank" rel="noopener noreferrer"><img src={github} alt="github button"></img></a>
                 </div>
             </div>
         </div>
