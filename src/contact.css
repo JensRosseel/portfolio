@@ -9,3 +9,27 @@
 .contact p a:hover{
     color: #35f4a6;
 }
+
+.mediaButtons{
+    display: none;
+}
+
+.mediaButtons img{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+}
+
+.mediaButtons img:first-child{
+    border-radius: 0%;
+}
+
+@media only screen and (max-width: 480px) {
+    .mediaButtons{
+        display: block;
+    }
+    .mediaLinks{
+        display: none;
+    }
+}

@@ -40,3 +40,9 @@ p{
     color: #35f4a6;
     border: 2px solid #35f4a6;
 }
+
+@media only screen and (max-width: 480px) {
+    .container{
+        margin-top: 100px;
+    }
+}
