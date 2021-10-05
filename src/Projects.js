@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './projects.css'
 import spaceinvaders from './img/spaceinvaders.JPG'
-import weatherapp from './img/weatherapp.JPG'
+import todolist from './img/todolist.JPG'
 
 export default function Projects() {
     return (
@@ -19,14 +19,17 @@ export default function Projects() {
                 </div> 
             </div>
             <div className="card">
-                <img src={ weatherapp } alt="project" />
+                <img src={ todolist } alt="project" />
                 <div className="description">
-                    <div className="title">Weather App</div>
-                    <p>Weather app created with the OpenWeather API using plain JavaScript</p>
+                    <div className="title">Todo-List</div>
+                    <p>
+                        Made with REACT framework using use-state function to make a todo-list app. <br />
+                        Also uses local storage to store the list.
+                    </p>
                 </div>
                 <div className="buttons">
-                    <div className="button"><a href="https://jensrosseel.github.io/weather-app/" target="_blank" rel="noopener noreferrer">Go to Deploy</a></div><br />
-                    <div className="button"><a href="https://github.com/JensRosseel/weather-app" target="_blank" rel="noopener noreferrer">Go to Repo</a></div>
+                    <div className="button"><a href="https://todo-list-jens.netlify.app/" target="_blank" rel="noopener noreferrer">Go to Deploy</a></div><br />
+                    <div className="button"><a href="https://github.com/JensRosseel/intro-react" target="_blank" rel="noopener noreferrer">Go to Repo</a></div>
                 </div>
             </div>
             <div className="interested">
