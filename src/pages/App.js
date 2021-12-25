@@ -3,15 +3,18 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Home from './Home'
 import Projects from './Projects'
 import Contact from './Contact'
-import './Nav.css'
+import './style.css'
 
 class Nav extends React.Component{
   render(){
     return(
-      <div className="navWindow">
-        <div className="link"><Link to="/">Home<br></br>&#9679;</Link></div>
-        <div className="link"><Link to="/projects">Projects<br></br>&#9679;</Link> </div>
-        <div className="link"><Link to="/contact">Contact Me<br></br>&#9679;</Link> </div>
+      <div className="nav">
+        <div className="navButton"></div>
+        <div className='navWindow'>
+          <div className="link"><Link to="/">Home</Link></div>
+          <div className="link"><Link to="/projects">Projects</Link> </div>
+          <div className="link"><Link to="/contact">Contact Me</Link> </div>
+        </div>
       </div>
     )
   }
