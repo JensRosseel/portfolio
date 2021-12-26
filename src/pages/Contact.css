@@ -17,3 +17,18 @@
 .contact{
     margin-top: 18%;
 }
+
+@media only screen and (max-width: 480px) {
+    .media-links{
+        display: none;
+    }
+
+    .media-buttons{
+        display: inline;
+        font-size: 4.5rem;
+    }
+
+    .contact{
+        margin-top: 80%;
+    }
+}

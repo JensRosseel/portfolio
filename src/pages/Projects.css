@@ -16,8 +16,9 @@
 
 .card img{
     grid-area: a;
+    padding: 5px;
     height: 400px;
-    width: 600px;
+    width: 100%;
 }
 
 .card .description{
@@ -63,4 +64,28 @@
     text-decoration: none;
     padding: 10px;
     color: #3A061C;
+}
+
+@media only screen and (max-width: 480px){
+    .cards{
+        grid-template-columns: 100%;
+        grid-template-rows: 50%;
+    }
+
+    .card{
+        grid-template-areas: 
+            'a a'
+            'a a'
+            'c c'
+        ;
+    }
+
+    .card img{
+        height: 250px;
+        width: 100%;
+    }
+
+    .card .description{
+        display: none;
+    }
 }
