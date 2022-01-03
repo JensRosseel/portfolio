@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import spaceinvaders from '../img/spaceinvaders.JPG'
 import todolist from '../img/todolist.JPG'
+import pokedex from '../img/pokedex.JPG'
 import './Projects.css'
 
 export default function Projects() {
@@ -31,6 +32,19 @@ export default function Projects() {
                     <div className="buttons">
                         <a href="https://todo-list-jens.netlify.app/" target="_blank" rel="noopener noreferrer" className="button">Go to Deploy</a><br />
                         <a href="https://github.com/JensRosseel/intro-react" target="_blank" rel="noopener noreferrer" className="button">Go to Repo</a>
+                    </div>
+                </div>
+                <div className="card">
+                    <img src={ pokedex } alt="project" />
+                    <div className="description">
+                        <div className="title">PokeDex</div>
+                        <p>
+                            Pokedex made with react using axios to fetch the PokeAPI.
+                        </p>
+                    </div>
+                    <div className="buttons">
+                        <a href="https://jensrosseel-pokedex.netlify.app/" target="_blank" rel="noopener noreferrer" className="button">Go to Deploy</a><br />
+                        <a href="https://github.com/JensRosseel/pokedex" target="_blank" rel="noopener noreferrer" className="button">Go to Repo</a>
                     </div>
                 </div>
             </div>

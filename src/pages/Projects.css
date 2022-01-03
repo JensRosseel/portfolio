@@ -10,7 +10,7 @@
         'a a c'
     ;
     background-color: #282542;
-    border: 3px solid #3A061C;
+    border: 3px solid #C22866;
     margin: 10px
 }
 
@@ -41,14 +41,14 @@
 .card .buttons a{
     margin: 15px;
     padding: 10px;
-    color: #3A061C;
+    color: #C22866;
     text-decoration: none;
-    border: 2px solid #3A061C;
+    border: 2px solid #C22866;
     border-radius: 4px;
 }
 
 .card .buttons a:hover{
-    background-color: #3A061C;
+    background-color: #C22866;
     color: #282542;
 }
 
@@ -63,7 +63,7 @@
     justify-content: center;
     text-decoration: none;
     padding: 10px;
-    color: #3A061C;
+    color: #C22866;
 }
 
 @media only screen and (max-width: 480px){
