@@ -1,17 +1,18 @@
 @font-face {
-    font-family: nasalization;
-    src: url(../fonts/nasalization-rg.otf);
+    font-family: titania;
+    src: url(../fonts/Titania-Regular.ttf);
 }
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'nasalization', sans-serif;
+    font-family: 'titania', sans-serif;
 }
 
 body{
-    background-image: url(../img/background.jpg);
+    background-color: #191414;
+    color: white;
     background-repeat: no-repeat;
     background-position: top;
 }

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 20px;
 }
 
@@ -10,7 +11,7 @@
 }
 
 .media-links a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -24,11 +25,11 @@
     }
 
     .media-buttons{
-        display: inline;
+        display: block;
         font-size: 4.5rem;
     }
 
     .contact{
-        margin-top: 80%;
+        margin-top: 40%;
     }
 }

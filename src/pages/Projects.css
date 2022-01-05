@@ -9,8 +9,8 @@
         'a a b'
         'a a c'
     ;
-    background-color: #282542;
-    border: 3px solid #C22866;
+    background-color: #333333;
+    border: 3px solid #810C0C;
     margin: 10px
 }
 
@@ -41,15 +41,15 @@
 .card .buttons a{
     margin: 15px;
     padding: 10px;
-    color: #C22866;
+    color: #810C0C;
     text-decoration: none;
-    border: 2px solid #C22866;
+    border: 2px solid #810C0C;
     border-radius: 4px;
 }
 
 .card .buttons a:hover{
-    background-color: #C22866;
-    color: #282542;
+    background-color: #810C0C;
+    color: #333333;
 }
 
 .interested{
@@ -63,7 +63,7 @@
     justify-content: center;
     text-decoration: none;
     padding: 10px;
-    color: #C22866;
+    color: #810C0C;
 }
 
 @media only screen and (max-width: 480px){
